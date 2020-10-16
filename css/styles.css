@@ -3,6 +3,12 @@
 body {
     background-color: #F5F5F5;
     background-image: url("../images/bg-body.jpg");
+    font-size: 62.5%; /* 10px (inherited base 16px) */
+}
+
+#header, #main, #footer {
+    font-size: 1.6em;
+    /* inherited value (10px) x 1.6em = 16px */
 }
 
 h1, h2, h3, h4 {
@@ -65,6 +71,10 @@ a:focus {
     outline-color: black;
     outline-style: dotted;
     outline-width: 1px;
+}
+
+#content {
+    width: 65%;
 }
 
 #content p:first-of-type::first-letter {

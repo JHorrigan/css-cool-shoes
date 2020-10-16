@@ -121,3 +121,25 @@ p:nth-of-type(1) {
 :not(:lang(fr)) {
     color: blue;
 }
+
+/* pseudo elements */
+/* physical form but no element eg first line of p */
+/* can use :: or : */
+
+p:first-line {
+    font-weight: bold;
+}
+
+#content p:first-of-type::first-letter {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/* generate content before or after an element */
+blockquote p:before {
+    content: "\201C";
+}
+
+blockquote p:after {
+    content: "\201D";
+}

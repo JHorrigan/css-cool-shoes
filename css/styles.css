@@ -4,6 +4,8 @@ body {
     background-color: #F5F5F5;
     background-image: url("../images/bg-body.jpg");
     font-size: 62.5%; /* 10px (inherited base 16px) */
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 #header, #main, #footer {

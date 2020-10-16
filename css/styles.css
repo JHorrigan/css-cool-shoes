@@ -51,7 +51,7 @@ input[type="submit"][class="button"] {
     font-size: 1em;
 }
 
-/* pseudo classes */
+/* pseudo-classes */
 a:link {
     text-decoration: underline;
 }
@@ -77,3 +77,21 @@ a:focus {
 a:visited:active {
     color: orange;
 }
+
+/* structural pseudo-classes */
+
+/* is p the first child of it's parent
+/* also first-child, last-child, only-child */
+/* (1) can be odd or even */
+p:nth-child(1) {
+    background-color: lightblue;
+}
+
+/* is p the first p child of it's parent
+/* also nth-first-of-type, nth-last-of-type, */
+/* nth-only-of-type */ 
+p:nth-of-type(1) {
+    background-color: lightblue;
+}
+
+/* also :empty() & :root for empty & root elements

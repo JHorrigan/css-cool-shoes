@@ -143,3 +143,10 @@ blockquote p:before {
 blockquote p:after {
     content: "\201D";
 }
+
+/* specificity - ID(100), class,attribute,pseudo-class(10) */
+/* type, pseudo-element(1) */
+/* use !important to override */
+p {
+    color: black !important;
+}

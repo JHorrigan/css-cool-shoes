@@ -37,3 +37,16 @@ p + .offer {
 p ~ h2 {
     color: black;
 }
+
+/* attribute selectors */
+input[type="text"], input[type="email"] {
+    border: none;
+}
+
+a[title] {
+    color: blue;
+}
+
+input[type="submit"][class="button"] {
+    font-size: 1em;
+}

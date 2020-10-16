@@ -1,0 +1,152 @@
+@import url("reset.css");
+
+body {
+    background-color: gray;
+    background-image: url("../images/bg-body.jpg");
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+#main {
+    background-color: white;
+}
+
+.button {
+    background-color: hotpink;
+    color: white;
+}
+
+/* descendant combinator */
+blockquote p {
+    font-style: italic;
+}
+
+/* child combinator */
+aside > h3 {
+    font-weight: bold;
+}
+
+/* adjacent sibling combinator */
+p + .offer {
+    color: red;
+}
+
+/* general sibling combinator */
+p ~ h2 {
+    color: black;
+}
+
+/* attribute selectors */
+input[type="text"], input[type="email"] {
+    border: none;
+}
+
+a[title] {
+    color: blue;
+}
+
+input[type="submit"][class="button"] {
+    font-size: 1em;
+}
+
+/* pseudo-classes */
+a:link {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
+a:focus {
+    outline-color: black;
+    outline-style: dotted;
+    outline-width: 1px;
+}
+
+a:visited:active {
+    color: orange;
+}
+
+/* structural pseudo-classes */
+
+/* is p the first child of it's parent
+/* also first-child, last-child, only-child */
+/* (1) can be odd or even */
+p:nth-child(1) {
+    background-color: lightblue;
+}
+
+/* is p the first p child of it's parent
+/* also nth-first-of-type, nth-last-of-type, */
+/* nth-only-of-type */ 
+p:nth-of-type(1) {
+    background-color: lightblue;
+}
+
+/* also :empty() & :root for empty & root elements
+
+/* target pseudo-class */
+/* style target of anchor link */
+:target {
+    color: red;
+}
+
+/* UI element states pseudo-classes */
+/* target enabled & disabled elements */
+:disabled {
+    background-color:gray;
+}
+/* and checked & unchecked elements */
+:checked {
+    background-color:green;
+}
+
+/* target elements with a language */
+:lang(fr) {
+    color: blue;
+}
+
+/* negation pseudo class */
+:not(:lang(fr)) {
+    color: blue;
+}
+
+/* pseudo elements */
+/* physical form but no element eg first line of p */
+/* can use :: or : */
+
+p:first-line {
+    font-weight: bold;
+}
+
+#content p:first-of-type::first-letter {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/* generate content before or after an element */
+blockquote p:before {
+    content: "\201C";
+}
+
+blockquote p:after {
+    content: "\201D";
+}
+
+/* specificity - ID(100), class,attribute,pseudo-class(10) */
+/* type, pseudo-element(1) */
+/* use !important to override */
+p {
+    color: black !important;
+}

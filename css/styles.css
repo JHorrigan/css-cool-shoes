@@ -101,3 +101,23 @@ p:nth-of-type(1) {
 :target {
     color: red;
 }
+
+/* UI element states pseudo-classes */
+/* target enabled & disabled elements */
+:disabled {
+    background-color:gray;
+}
+/* and checked & unchecked elements */
+:checked {
+    background-color:green;
+}
+
+/* target elements with a language */
+:lang(fr) {
+    color: blue;
+}
+
+/* negation pseudo class */
+:not(:lang(fr)) {
+    color: blue;
+}

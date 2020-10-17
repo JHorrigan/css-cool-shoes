@@ -22,6 +22,7 @@ h1, h2, h3, h4 {
     /* recognise rgba, first statement is used */
     background-color: white;
     background-color: rgba(255, 255, 255, 0.6);
+    border: #CCC solid 1px;
 }
 
 .button {
@@ -95,11 +96,14 @@ blockquote p:after {
 #newsletter {
     color: white;
     background-color: #00ACDF;
+    border-radius: 8px;
 }
 
 #footer {
     background-color: #CCC;
     background-image: url("../images/bg-footer.jpg");
+    border-top: #999 dotted 4px;
+    border-image: url("../images/bdr-footer.png") 4 repeat;
 }
 
 .showcase .button:hover {

@@ -118,6 +118,17 @@ blockquote p:after {
     border-image: url("../images/bdr-footer.png") 4 repeat;
 }
 
+.small-logo {
+    background: white url("../images/logo-small.png") no-repeat center;
+    display: block;
+    min-height: 11px;
+    width: 162px;
+    padding: 5px;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
 .showcase {
     box-shadow: 0 -3px 8px 0 #CCC;
 }

@@ -46,6 +46,18 @@ blockquote p {
     font-style: italic;
 }
 
+blockquote p:before {
+    content: "\201C";
+}
+
+blockquote p:after {
+    content: "\201D";
+}
+
+blockquote cite:before {
+    content: "- ";
+}
+
 aside > h3 {
     font-weight: bold;
 }
@@ -95,14 +107,6 @@ a:focus {
 #content p:first-of-type::first-letter {
     font-size: 4em;
     font-weight: bold;
-}
-
-blockquote p:before {
-    content: "\201C";
-}
-
-blockquote p:after {
-    content: "\201D";
 }
 
 #newsletter {

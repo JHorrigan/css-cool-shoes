@@ -127,3 +127,11 @@ blockquote p:after {
 .showcase .button:hover {
     background-color: #00ACDF;
 }
+
+.showcase .button {
+    padding: 20px;
+    background-image: -webkit-linear-gradient(top, #FB3876 0%, #D4326D 100%);
+    background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #D4326D 100%);
+    background-image: -o-linear-gradient(top, #FB3876 0%, #D4326D 100%);
+    background-image: linear-gradient(to bottom, #FB3876 0%, #D4326D 100%);
+}

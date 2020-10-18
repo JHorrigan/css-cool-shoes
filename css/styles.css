@@ -13,6 +13,11 @@ body {
     /* inherited value (10px) x 1.6em = 16px */
 }
 
+#header > ul {
+    border-radius: 20px;
+    border: #CCC solid 1px;
+}
+
 h1, h2, h3, h4 {
     font-weight: bold;
 }
@@ -29,6 +34,8 @@ h1, h2, h3, h4 {
 .button {
     background-color: hotpink;
     color: white;
+    border-radius: 8px;
+    border: 2px solid white;
 }
 
 blockquote p {
@@ -99,6 +106,7 @@ blockquote p:after {
     color: white;
     background-color: #00ACDF;
     border-radius: 8px;
+    border: rgba(0,0,0,0.1) solid 5px;
 }
 
 #footer {
@@ -106,6 +114,10 @@ blockquote p:after {
     background-image: url("../images/bg-footer.jpg");
     border-top: #999 dotted 4px;
     border-image: url("../images/bdr-footer.png") 4 repeat;
+}
+
+.showcase {
+    box-shadow: 0 -3px 8px 0 #CCC;
 }
 
 .showcase .button:hover {

@@ -108,6 +108,7 @@ blockquote p:after {
     border-radius: 8px;
     border: rgba(0,0,0,0.1) solid 5px;
     background-image: url("../images/icon-newsletter.png");
+    background-repeat: no-repeat;
 }
 
 #footer {

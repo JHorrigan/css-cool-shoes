@@ -111,6 +111,8 @@ blockquote p:after {
     url("../images/bg-newsletter.png");
     background-repeat: no-repeat, repeat;
     background-position: 91% 2%, 0;
+    background-origin: content-box;
+    padding: 6%;
 }
 
 #footer {

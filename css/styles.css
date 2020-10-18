@@ -109,6 +109,7 @@ blockquote p:after {
     border: rgba(0,0,0,0.1) solid 5px;
     background-image: url("../images/icon-newsletter.png");
     background-repeat: no-repeat;
+    background-position: 91% 2%;
 }
 
 #footer {

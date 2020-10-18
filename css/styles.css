@@ -18,6 +18,10 @@ body {
     border: #CCC solid 1px;
 }
 
+#header  nav > ul > li {
+    background: white;
+}
+
 h1, h2, h3, h4 {
     font-weight: bold;
 }
@@ -112,8 +116,7 @@ blockquote p:after {
 }
 
 #footer {
-    background-color: #CCC;
-    background-image: url("../images/bg-footer.jpg");
+    background: #CCC url("../images/bg-footer.jpg");
     border-top: #999 dotted 4px;
     border-image: url("../images/bdr-footer.png") 4 repeat;
 }
@@ -131,6 +134,7 @@ blockquote p:after {
 
 .showcase {
     box-shadow: 0 -3px 8px 0 #CCC;
+    background: #F5F5F5;
 }
 
 .showcase .button:hover {

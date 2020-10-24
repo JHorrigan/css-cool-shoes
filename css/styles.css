@@ -118,6 +118,8 @@ a:focus {
     background: #ccc url("../images/bg-footer.jpg");
     border-top: #999 dotted 4px;
     -webkit-border-image: url("../images/bdr-footer.png") 4 repeat;
+    margin-top: 2.5em;
+    padding: 1.4em 0;
 }
 
 .showcase .button {

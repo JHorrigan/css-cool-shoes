@@ -90,6 +90,8 @@ input[type="text"], input[type="email"] {
     border: none;
     box-shadow: -3px 3px 2px 0 #ccc inset;
     padding: .4em 1em;
+    box-sizing: border-box;
+    width:100%;
 }
 
 input[type="submit"][class="button"] {
@@ -134,6 +136,8 @@ a:focus {
     border: rgba(0,0,0,0.1) solid 5px;
     background: url("../images/icon-newsletter.png") no-repeat 91% 2%, url("../images/bg-newsletter.png") repeat 0 #00ACDF;
     padding: 6%;
+    width: 88%;
+    margin-left: -4px;
 }
 
 #newsletter h3 {

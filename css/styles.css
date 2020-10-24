@@ -46,6 +46,7 @@ h1, h2, h3, h4 {
    background-color: rgba(255, 255, 255, 0.6);
    border: #ccc solid 1px;
    box-shadow: 0 3px 8px 0 #ccc;
+   padding: 2.5em;
 }
 
 .button {
@@ -53,6 +54,7 @@ h1, h2, h3, h4 {
     color: white;
     border-radius: 8px;
     border: 2px solid white;
+    padding: 1em;
 }
 
 blockquote p {
@@ -87,12 +89,14 @@ p + .offer {
 input[type="text"], input[type="email"] {
     border: none;
     box-shadow: -3px 3px 2px 0 #ccc inset;
+    padding: .4em 1em;
 }
 
 input[type="submit"][class="button"] {
     font-size: 1em;
     cursor: pointer;
     margin: 2em auto 1em;
+    padding: .8em;
 }
 
 input[type="submit"][class="button"]:hover {
@@ -161,7 +165,6 @@ a:focus {
 }
 
 .showcase .button {
-    padding: 20px;
     background-image: -webkit-linear-gradient(top, #FB3876 0%, #d4326d 100%);
     background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);    
     background-image: -o-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
@@ -217,4 +220,8 @@ blockquote cite {
 
 #header nav > ul > li {
     background: white;
+}
+
+.testimonials {
+    padding: 1em 0 0 0;
 }

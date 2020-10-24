@@ -1,25 +1,24 @@
+/*
+
+For use with CSS3 Foundations: Styling the Modern Web
+CSS3 Foundations Book: www.wiley.com/go/treehouse/css3foundations
+
+Project Files: 06-00
+
+ */
+
 @import url("reset.css");
 
 body {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     background-image: url("../images/bg-body.jpg");
-    font-size: 62.5%; /* 10px (inherited base 16px) */
+    font-size: 62.5%;
     margin: 0 auto;
     max-width: 960px;
 }
 
 #header, #main, #footer {
-    font-size: 1.6em;
-    /* inherited value (10px) x 1.6em = 16px */
-}
-
-#header > ul {
-    border-radius: 20px;
-    border: #CCC solid 1px;
-}
-
-#header  nav > ul > li {
-    background: white;
+    font-size: 1.6em; /* inherited value (10px) x 1.6em = 16px */
 }
 
 h1, h2, h3, h4 {
@@ -27,12 +26,10 @@ h1, h2, h3, h4 {
 }
 
 #main {
-    /* latter will be rendered. if browser does not */
-    /* recognise rgba, first statement is used */
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.6);
-    border: #CCC solid 1px;
-    box-shadow: 0 3px 8px #CCC;
+   background-color: white;
+   background-color: rgba(255, 255, 255, 0.6);
+   border: #ccc solid 1px;
+   box-shadow: 0 3px 8px 0 #ccc;
 }
 
 .button {
@@ -68,7 +65,7 @@ p + .offer {
 
 input[type="text"], input[type="email"] {
     border: none;
-    box-shadow: -3px 3px 2px 0 #CCC inset;
+    box-shadow: -3px 3px 2px 0 #ccc inset;
 }
 
 input[type="submit"][class="button"] {
@@ -77,7 +74,7 @@ input[type="submit"][class="button"] {
 }
 
 input[type="submit"][class="button"]:hover {
-    background-color: #D4326D;
+    background-color: #d4326d;
 }
 
 a:link {
@@ -100,11 +97,7 @@ a:focus {
     outline: black dotted 1px;
 }
 
-#content {
-    width: 65%;
-}
-
-#content p:first-of-type::first-letter {
+#content p:first-of-type:first-letter {
     font-size: 4em;
     font-weight: bold;
 }
@@ -113,18 +106,43 @@ a:focus {
     color: white;
     border-radius: 8px;
     border: rgba(0,0,0,0.1) solid 5px;
+    background: url("../images/icon-newsletter.png") no-repeat 91% 2%, url("../images/bg-newsletter.png") repeat 0 #00ACDF;
     padding: 6%;
-    background: url("../images/icon-newsletter.png") no-repeat 91% 2%,
-    url("../images/bg-newsletter.png") repeat 0 #00ACDF;
 }
 
 #footer {
-    background: #CCC url("../images/bg-footer.jpg");
+    background: #ccc url("../images/bg-footer.jpg");
     border-top: #999 dotted 4px;
-    border-image: url("../images/bdr-footer.png") 4 repeat;
+    -webkit-border-image: url("../images/bdr-footer.png") 4 repeat;
 }
 
-.small-logo {
+.showcase .button {
+    padding: 20px;
+    background-image: -webkit-linear-gradient(top, #FB3876 0%, #d4326d 100%);
+    background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);    
+    background-image: -o-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
+    background-image: linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
+}
+
+.showcase .button:hover  {
+    background-color: #00ACDF;
+}
+
+#content {
+    width: 65%;
+}
+
+#header nav > ul {
+    border-radius: 20px;
+    border: #ccc solid 1px;
+}
+
+.showcase {
+    box-shadow: 0 -3px 8px 0 #ccc;
+    background: #f5f5f5;
+}
+
+.small-logo a {
     background: white url("../images/logo-small.png") no-repeat center;
     display: block;
     min-height: 11px;
@@ -135,19 +153,6 @@ a:focus {
     color: transparent;
 }
 
-.showcase {
-    box-shadow: 0 -3px 8px 0 #CCC;
-    background: #F5F5F5;
-}
-
-.showcase .button:hover {
-    background-color: #00ACDF;
-}
-
-.showcase .button {
-    padding: 20px;
-    background-image: -webkit-linear-gradient(top, #FB3876 0%, #D4326D 100%);
-    background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #D4326D 100%);
-    background-image: -o-linear-gradient(top, #FB3876 0%, #D4326D 100%);
-    background-image: linear-gradient(to bottom, #FB3876 0%, #D4326D 100%);
+#header nav > ul > li {
+    background: white;
 }

@@ -102,6 +102,7 @@ input[type="submit"][class="button"] {
     cursor: pointer;
     margin: 2em auto 1em;
     padding: .8em;
+    display: block;
 }
 
 input[type="submit"][class="button"]:hover {
@@ -149,6 +150,7 @@ a:focus {
 
 #newsletter label {
     margin: 1.5em 0 0 0;
+    display: block;
 }
 
 .aside {

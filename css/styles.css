@@ -27,10 +27,13 @@ img {
 
 #header .logo {
     margin: 2.4em 0;
+    float: left;
+    width: 240px;
 }
 
 #header nav {
     margin-top: 2em;
+    float: right;
 }
 
 #header, #main, #footer {

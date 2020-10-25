@@ -27,10 +27,13 @@ img {
 
 #header .logo {
     margin: 2.4em 0;
+    float: left;
+    width: 240px;
 }
 
 #header nav {
     margin-top: 2em;
+    float: right;
 }
 
 #header, #main, #footer {
@@ -99,6 +102,7 @@ input[type="submit"][class="button"] {
     cursor: pointer;
     margin: 2em auto 1em;
     padding: .8em;
+    display: block;
 }
 
 input[type="submit"][class="button"]:hover {
@@ -146,6 +150,7 @@ a:focus {
 
 #newsletter label {
     margin: 1.5em 0 0 0;
+    display: block;
 }
 
 .aside {
@@ -166,6 +171,15 @@ a:focus {
     -webkit-border-image: url("../images/bdr-footer.png") 4 repeat;
     margin-top: 2.5em;
     padding: 1.4em 0;
+    clear: both;
+}
+
+#footer li:nth-child(1) {
+    float: left;
+}
+
+#footer li:nth-child(2) {
+    float: right;
 }
 
 .showcase .button {
@@ -182,6 +196,7 @@ a:focus {
 #content {
     width: 65%;
     margin: 0 auto;
+    float: left;
 }
 
 #content h1, #content h2, #content h3, #content h4 {
@@ -194,6 +209,7 @@ a:focus {
 
 blockquote cite {
     margin: 0.625em 0 0 0;
+    float: right;
 }
 
 .container {
@@ -224,8 +240,37 @@ blockquote cite {
 
 #header nav > ul > li {
     background: white;
+    display: inline-block;
 }
 
 .testimonials {
     padding: 1em 0 0 0;
+}
+
+.product {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.benefits {
+    clear: left;
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+}
+
+/* Micro clearfix hack */
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
 }

@@ -166,6 +166,7 @@ a:focus {
     -webkit-border-image: url("../images/bdr-footer.png") 4 repeat;
     margin-top: 2.5em;
     padding: 1.4em 0;
+    clear: both;
 }
 
 .showcase .button {
@@ -243,4 +244,18 @@ blockquote cite {
 .sidebar {
     float: right;
     width: 25%;
+}
+
+/* Micro clearfix hack */
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
 }

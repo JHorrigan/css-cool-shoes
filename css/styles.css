@@ -172,6 +172,14 @@ a:focus {
     clear: both;
 }
 
+#footer li:nth-child(1) {
+    float: left;
+}
+
+#footer li:nth-child(2) {
+    float: right;
+}
+
 .showcase .button {
     background-image: -webkit-linear-gradient(top, #FB3876 0%, #d4326d 100%);
     background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);    
@@ -199,6 +207,7 @@ a:focus {
 
 blockquote cite {
     margin: 0.625em 0 0 0;
+    float: right;
 }
 
 .container {

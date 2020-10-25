@@ -240,7 +240,7 @@ blockquote cite {
 
 #header nav > ul > li {
     background: white;
-    display: inline;
+    display: inline-block;
 }
 
 .testimonials {

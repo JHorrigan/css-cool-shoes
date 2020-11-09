@@ -280,3 +280,9 @@ blockquote cite {
 .group {
     zoom: 1;
 }
+
+.banner-ad {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+}

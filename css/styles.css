@@ -260,6 +260,16 @@ blockquote cite {
     display: inline-block;
 }
 
+#header nav > ul > li:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#header nav > ul > li:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 #header nav ul > li:hover {
     background: #F5F5F5;
 }

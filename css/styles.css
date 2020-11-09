@@ -182,14 +182,22 @@ a:focus {
     float: right;
 }
 
+.showcase {
+    box-shadow: 0 -3px 8px 0 #ccc;
+    background: #f5f5f5;
+    position: relative;
+}
+
 .showcase .button {
     background-image: -webkit-linear-gradient(top, #FB3876 0%, #d4326d 100%);
     background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);    
     background-image: -o-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     background-image: linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
+    position: absolute;
+    top: 0;
 }
 
-.showcase .button:hover  {
+.showcase .button:hover {
     background-color: #00ACDF;
 }
 
@@ -220,11 +228,6 @@ blockquote cite {
 #header nav > ul {
     border-radius: 20px;
     border: #ccc solid 1px;
-}
-
-.showcase {
-    box-shadow: 0 -3px 8px 0 #ccc;
-    background: #f5f5f5;
 }
 
 .small-logo a {

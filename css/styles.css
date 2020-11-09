@@ -287,6 +287,15 @@ blockquote cite {
     z-index: 10;
 }
 
+#header nav ul ul ul {
+    /* Style all lists below the second level list */
+    border: 1px solid #CCC;
+    border-right: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0;
+}
+
 .testimonials {
     padding: 1em 0 0 0;
 }

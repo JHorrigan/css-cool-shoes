@@ -287,6 +287,10 @@ blockquote cite {
     z-index: 10;
 }
 
+#header nav ul ul li {
+    position: relative;
+}
+
 #header nav ul ul ul {
     /* Style all lists below the second level list */
     border: 1px solid #CCC;
@@ -294,6 +298,8 @@ blockquote cite {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding: 0;
+    left: -100%;
+    top: -1px;
 }
 
 .testimonials {

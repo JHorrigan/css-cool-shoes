@@ -285,6 +285,7 @@ blockquote cite {
     position: absolute;
     min-width: 140px;
     z-index: 10;
+    visibility: hidden;
 }
 
 #header nav ul ul li {
@@ -300,6 +301,11 @@ blockquote cite {
     padding: 0;
     left: -100%;
     top: -1px;
+}
+
+#header nav li:hover > ul {
+    /* Show the menu of the list item being hovered over */
+    visibility: visible;
 }
 
 .testimonials {

@@ -172,6 +172,9 @@ a:focus {
     margin-top: 2.5em;
     padding: 1.4em 0;
     clear: both;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 #footer li:nth-child(1) {

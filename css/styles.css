@@ -260,6 +260,20 @@ blockquote cite {
     display: inline-block;
 }
 
+#header nav ul > li:hover {
+    background: #F5F5F5;
+}
+
+#header nav ul ul > li:hover {
+    background: white;
+}
+
+#header nav ul li a {
+    color: black;
+    display: block;
+    padding: 10px 20px;
+}
+
 .testimonials {
     padding: 1em 0 0 0;
 }

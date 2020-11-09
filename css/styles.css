@@ -208,6 +208,7 @@ a:focus {
     background-image: linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     position: absolute;
     top: 0;
+    left: 0;
 }
 
 .showcase .button:hover {

@@ -60,16 +60,26 @@ h1, h2, h3, h4 {
     padding: 1em;
 }
 
+blockquote {
+    position: relative;
+}
+
 blockquote p {
     font-style: italic;
 }
 
 blockquote p:before {
     content: "\201C";
+    position: absolute;
+    left: -20px;
+    top: -10px;
 }
 
 blockquote p:after {
     content: "\201D";
+    position: absolute;
+    right: 30px;
+    bottom: -15px;
 }
 
 blockquote cite:before {
@@ -172,6 +182,9 @@ a:focus {
     margin-top: 2.5em;
     padding: 1.4em 0;
     clear: both;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 #footer li:nth-child(1) {
@@ -182,14 +195,24 @@ a:focus {
     float: right;
 }
 
+.showcase {
+    box-shadow: 0 -3px 8px 0 #ccc;
+    background: #f5f5f5;
+    position: relative;
+}
+
 .showcase .button {
     background-image: -webkit-linear-gradient(top, #FB3876 0%, #d4326d 100%);
     background-image: -moz-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);    
     background-image: -o-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     background-image: linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
 }
 
-.showcase .button:hover  {
+.showcase .button:hover {
     background-color: #00ACDF;
 }
 
@@ -222,11 +245,6 @@ blockquote cite {
     border: #ccc solid 1px;
 }
 
-.showcase {
-    box-shadow: 0 -3px 8px 0 #ccc;
-    background: #f5f5f5;
-}
-
 .small-logo a {
     background: white url("../images/logo-small.png") no-repeat center;
     display: block;
@@ -241,6 +259,64 @@ blockquote cite {
 #header nav > ul > li {
     background: white;
     display: inline-block;
+}
+
+#header nav > ul > li:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#header nav > ul > li:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#header nav ul > li:hover {
+    background: #F5F5F5;
+}
+
+#header nav ul ul > li:hover {
+    background: white;
+}
+
+#header nav ul li a {
+    color: black;
+    display: block;
+    padding: 10px 20px;
+}
+
+#header nav ul ul {
+    /* Style all lists below the top level list */
+    background: #F5F5F5;
+    border: 1px solid #CCC;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: none;
+    padding: 20px 0;
+    position: absolute;
+    min-width: 140px;
+    z-index: 10;
+    visibility: hidden;
+}
+
+#header nav ul ul li {
+    position: relative;
+}
+
+#header nav ul ul ul {
+    /* Style all lists below the second level list */
+    border: 1px solid #CCC;
+    border-right: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0;
+    left: -100%;
+    top: -1px;
+}
+
+#header nav li:hover > ul {
+    /* Show the menu of the list item being hovered over */
+    visibility: visible;
 }
 
 .testimonials {
@@ -273,4 +349,11 @@ blockquote cite {
 
 .group {
     zoom: 1;
+}
+
+.banner-ad {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    z-index: 9;
 }

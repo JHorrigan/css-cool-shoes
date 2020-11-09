@@ -284,6 +284,7 @@ blockquote cite {
     padding: 20px 0;
     position: absolute;
     min-width: 140px;
+    z-index: 10;
 }
 
 .testimonials {

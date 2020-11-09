@@ -60,16 +60,26 @@ h1, h2, h3, h4 {
     padding: 1em;
 }
 
+blockquote {
+    position: relative;
+}
+
 blockquote p {
     font-style: italic;
 }
 
 blockquote p:before {
     content: "\201C";
+    position: absolute;
+    left: -20px;
+    top: -10px;
 }
 
 blockquote p:after {
     content: "\201D";
+    position: absolute;
+    right: 30px;
+    bottom: -15px;
 }
 
 blockquote cite:before {

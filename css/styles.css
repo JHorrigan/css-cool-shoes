@@ -207,8 +207,10 @@ a:focus {
     background-image: -o-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     background-image: linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    font-size: 1.6em;
+    right: 2.1875em;
+    margin-top: -26px;
     z-index: 5;
 }
 

@@ -292,6 +292,7 @@ blockquote cite {
     color: black;
     display: block;
     padding: 10px 20px;
+    font-weight: bold;
 }
 
 #header nav ul ul {

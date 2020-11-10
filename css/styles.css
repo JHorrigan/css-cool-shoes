@@ -60,6 +60,7 @@ h1, h2, h3, h4 {
     border-radius: 8px;
     border: 2px solid white;
     padding: 1em;
+    font-weight: bold;
 }
 
 blockquote {
@@ -100,6 +101,8 @@ aside > h3 {
 p + .offer {
     color: red;
     font-style: italic;
+    /*font-variant: small-caps;*/
+
 }
 
 input[type="text"], input[type="email"] {
@@ -155,6 +158,7 @@ a:focus {
     padding: 6%;
     width: 88%;
     margin-left: -4px;
+    font-weight: bold;
 }
 
 #newsletter h3 {

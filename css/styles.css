@@ -237,6 +237,7 @@ a:focus {
 
 #content p, #content ul {
     margin: 0 0 1.25em 0;
+    line-height: 1.4em;
 }
 
 blockquote cite {

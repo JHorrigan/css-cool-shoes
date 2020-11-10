@@ -15,6 +15,7 @@ body {
     font-size: 62.5%;
     margin: 2.5em auto 0 auto;
     max-width: 960px;
+    font-family: Average, Georgia, serif;
 }
 
 img {
@@ -42,6 +43,7 @@ img {
 
 h1, h2, h3, h4 {
     font-weight: bold;
+    font-family: Belgrano, Georgia, serif;
 }
 
 #main {
@@ -207,8 +209,10 @@ a:focus {
     background-image: -o-linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     background-image: linear-gradient(to bottom, #FB3876 0%, #d4326d 100%);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    font-size: 1.6em;
+    right: 2.1875em;
+    margin-top: -26px;
     z-index: 5;
 }
 
@@ -321,6 +325,12 @@ blockquote cite {
 
 .testimonials {
     padding: 1em 0 0 0;
+}
+
+.post {
+    height: 200px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
 }
 
 .product {

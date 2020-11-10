@@ -12,10 +12,9 @@ Project Files: 06-00
 body {
     background-color: #f5f5f5;
     background-image: url("../images/bg-body.jpg");
-    font-size: 62.5%;
     margin: 2.5em auto 0 auto;
     max-width: 960px;
-    font-family: Average, Georgia, serif;
+    font: 62.5% Average, Georgia, serif;
 }
 
 img {
@@ -60,6 +59,7 @@ h1, h2, h3, h4 {
     border-radius: 8px;
     border: 2px solid white;
     padding: 1em;
+    font-weight: bold;
 }
 
 blockquote {
@@ -75,13 +75,15 @@ blockquote p:before {
     position: absolute;
     left: -20px;
     top: -10px;
+    font-size: 2em;
 }
 
 blockquote p:after {
     content: "\201D";
     position: absolute;
-    right: 30px;
+    right: 60px;
     bottom: -15px;
+    font-size: 2em;
 }
 
 blockquote cite:before {
@@ -99,6 +101,9 @@ aside > h3 {
 
 p + .offer {
     color: red;
+    font-style: italic;
+    /*font-variant: small-caps;*/
+
 }
 
 input[type="text"], input[type="email"] {
@@ -107,6 +112,7 @@ input[type="text"], input[type="email"] {
     padding: .4em 1em;
     box-sizing: border-box;
     width:100%;
+    font-size: .8em;
 }
 
 input[type="submit"][class="button"] {
@@ -154,6 +160,7 @@ a:focus {
     padding: 6%;
     width: 88%;
     margin-left: -4px;
+    font-weight: bold;
 }
 
 #newsletter h3 {
@@ -232,6 +239,7 @@ a:focus {
 
 #content p, #content ul {
     margin: 0 0 1.25em 0;
+    line-height: 1.4em;
 }
 
 blockquote cite {
@@ -287,6 +295,7 @@ blockquote cite {
     color: black;
     display: block;
     padding: 10px 20px;
+    font-weight: bold;
 }
 
 #header nav ul ul {

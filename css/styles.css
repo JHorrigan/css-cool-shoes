@@ -112,6 +112,7 @@ input[type="text"], input[type="email"] {
     padding: .4em 1em;
     box-sizing: border-box;
     width:100%;
+    font-size: .8em;
 }
 
 input[type="submit"][class="button"] {

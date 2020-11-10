@@ -12,10 +12,9 @@ Project Files: 06-00
 body {
     background-color: #f5f5f5;
     background-image: url("../images/bg-body.jpg");
-    font-size: 62.5%;
     margin: 2.5em auto 0 auto;
     max-width: 960px;
-    font-family: Average, Georgia, serif;
+    font: 62.5% Average, Georgia, serif;
 }
 
 img {

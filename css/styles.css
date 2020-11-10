@@ -325,6 +325,12 @@ blockquote cite {
     padding: 1em 0 0 0;
 }
 
+.post {
+    height: 200px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+
 .product {
     float: left;
     margin: 0 1em 1em 0;

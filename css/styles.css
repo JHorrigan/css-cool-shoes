@@ -99,6 +99,7 @@ aside > h3 {
 
 p + .offer {
     color: red;
+    font-style: italic;
 }
 
 input[type="text"], input[type="email"] {

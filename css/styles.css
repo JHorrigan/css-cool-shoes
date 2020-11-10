@@ -75,13 +75,15 @@ blockquote p:before {
     position: absolute;
     left: -20px;
     top: -10px;
+    font-size: 2em;
 }
 
 blockquote p:after {
     content: "\201D";
     position: absolute;
-    right: 30px;
+    right: 60px;
     bottom: -15px;
+    font-size: 2em;
 }
 
 blockquote cite:before {

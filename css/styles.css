@@ -370,6 +370,7 @@ blockquote cite {
 
 .benefits ul {
     list-style-type: disc;
+    list-style-image: url("../images/check.png");
 }
 
 .sidebar {

@@ -368,6 +368,10 @@ blockquote cite {
     color: #38AEDB;
 }
 
+.benefits ul {
+    list-style-type: disc;
+}
+
 .sidebar {
     float: right;
     width: 25%;

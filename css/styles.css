@@ -227,6 +227,7 @@ a:focus {
     right: 2.1875em;
     margin-top: -26px;
     z-index: 5;
+    letter-spacing: 2px;
 }
 
 .showcase .button:hover {

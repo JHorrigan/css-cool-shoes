@@ -62,8 +62,14 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+.button:link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
 blockquote {
     position: relative;
+    text-align: justify;
 }
 
 blockquote p {
@@ -103,7 +109,14 @@ p + .offer {
     color: red;
     font-style: italic;
     /*font-variant: small-caps;*/
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2),
+                 4px 4px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
+.strike {
+    text-decoration: line-through;
 }
 
 input[type="text"], input[type="email"] {
@@ -221,6 +234,7 @@ a:focus {
     right: 2.1875em;
     margin-top: -26px;
     z-index: 5;
+    letter-spacing: 2px;
 }
 
 .showcase .button:hover {
@@ -296,6 +310,8 @@ blockquote cite {
     display: block;
     padding: 10px 20px;
     font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 #header nav ul ul {
@@ -349,6 +365,11 @@ blockquote cite {
 
 .benefits {
     clear: left;
+    color: #38AEDB;
+}
+
+.benefits ul {
+    list-style: disc inside url("../images/check.png");
 }
 
 .sidebar {

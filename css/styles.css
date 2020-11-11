@@ -310,6 +310,8 @@ blockquote cite {
     display: block;
     padding: 10px 20px;
     font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 #header nav ul ul {

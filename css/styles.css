@@ -396,4 +396,20 @@ blockquote cite {
     position: fixed;
     right: 0;
     z-index: 9;
+    background: #00B0DC;
+    color: white;
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    min-height: 50px;
+    width: 200px;
+    -webkit-transform: translate(75px, -25px) rotate(-45deg) scale(1.1);
+    -webkit-transform-origin: 50% 100%;
+}
+
+.banner-ad span {
+    clear: both;
+    display: block;
+    font-size: 2.2em;
 }

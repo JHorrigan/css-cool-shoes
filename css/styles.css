@@ -404,7 +404,7 @@ blockquote cite {
     font-weight: bold;
     min-height: 50px;
     width: 200px;
-    -webkit-transform: translate(50px, -25px);
+    -webkit-transform: translate(50px, -25px) rotate(-45deg);
 }
 
 .banner-ad span {

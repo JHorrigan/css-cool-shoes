@@ -378,6 +378,10 @@ blockquote cite {
     width: 25%;
 }
 
+.sidebar:hover {
+    -webkit-transform: translateZ(100px);
+}
+
 /* Micro clearfix hack */
 .group:before, .group:after {
     content: "";

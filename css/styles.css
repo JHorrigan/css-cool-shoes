@@ -380,7 +380,7 @@ blockquote cite {
 }
 
 .sidebar:hover {
-    -webkit-transform: translateZ(100px);
+    -webkit-transform: scaleZ(2) translateZ(100px);
 }
 
 /* Micro clearfix hack */

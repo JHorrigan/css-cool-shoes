@@ -380,8 +380,12 @@ blockquote cite {
     -webkit-transform-style: preserve-3d;
 }
 
-.sidebar:hover {
-    -webkit-transform: scaleZ(2) translateZ(100px);
+.sidebar aside:hover {
+    -webkit-transform: rotateY(40deg);
+}
+
+.sidebar aside:nth-child(3):hover {
+    -webkit-transform: rotateY(40deg) translateX(-50px) scaleZ(2) translateZ(100px);
 }
 
 /* Micro clearfix hack */

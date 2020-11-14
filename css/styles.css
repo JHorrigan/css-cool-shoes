@@ -377,6 +377,7 @@ blockquote cite {
     float: right;
     width: 25%;
     -webkit-transform: rotateY(-40deg);
+    -webkit-transform-style: preserve-3d;
 }
 
 .sidebar:hover {

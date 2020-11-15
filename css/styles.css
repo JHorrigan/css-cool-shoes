@@ -423,6 +423,7 @@ blockquote cite {
     cursor: default;
     -webkit-transform: translate(75px, -25px) rotate(-45deg) scale(1.1);
     -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
 }
 
 .banner-ad span {

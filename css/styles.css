@@ -380,8 +380,13 @@ blockquote cite {
     -webkit-transform-style: preserve-3d;
 }
 
+.sidebar aside {
+    -webkit-transition: -webkit-transform .5s;
+}
+
 .sidebar aside:hover {
     -webkit-transform: rotateY(40deg);
+    -webkit-transition: -webkit-transform .5s;
 }
 
 .sidebar aside:nth-child(3):hover {
@@ -415,8 +420,15 @@ blockquote cite {
     font-weight: bold;
     min-height: 50px;
     width: 200px;
-    -webkit-transform: translate(75px, -25px) rotate(-45deg) scale(1.1);
+    -webkit-transform: translate(75px, -25px) rotate(-45deg) scale(.8);
     -webkit-transform-origin: 50% 100%;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.banner-ad:hover {
+    cursor: default;
+    -webkit-transform: translate(75px, -25px) rotate(-45deg) scale(1.1);
+    -webkit-transition: -webkit-transform 1s;
 }
 
 .banner-ad span {

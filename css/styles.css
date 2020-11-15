@@ -417,6 +417,7 @@ blockquote cite {
     width: 200px;
     -webkit-transform: translate(75px, -25px) rotate(-45deg) scale(.8);
     -webkit-transform-origin: 50% 100%;
+    -webkit-transition: -webkit-transform 1s;
 }
 
 .banner-ad:hover {

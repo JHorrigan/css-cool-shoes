@@ -380,8 +380,13 @@ blockquote cite {
     -webkit-transform-style: preserve-3d;
 }
 
+.sidebar aside {
+    -webkit-transition: -webkit-transform .5s;
+}
+
 .sidebar aside:hover {
     -webkit-transform: rotateY(40deg);
+    -webkit-transition: -webkit-transform .5s;
 }
 
 .sidebar aside:nth-child(3):hover {

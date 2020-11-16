@@ -271,6 +271,7 @@ a:focus {
     -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .showcase li:nth-child(2) {

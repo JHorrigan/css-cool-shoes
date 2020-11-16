@@ -271,12 +271,7 @@ a:focus {
 .showcase li:first-child {
     z-index: 3;
     position: relative;
-    -webkit-animation-name: fadeOut;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-delay: 5s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
+    -webkit-animation: fadeOut 5s ease-in-out 5s infinite alternate;
 }
 
 .showcase li:nth-child(2) {

@@ -242,6 +242,27 @@ a:focus {
     background-color: #00ACDF;
 }
 
+.showcase ul {
+    background: #009CC8;
+    position: relative;
+    z-index: 9;
+}
+
+.showcase li {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.showcase li:first-child {
+    z-index: 3;
+    position: relative;
+}
+
+.showcase li:nth-child(2) {
+    z-index: 2;
+}
+
 #content {
     width: 65%;
     margin: 0 auto;

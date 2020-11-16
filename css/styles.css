@@ -262,6 +262,7 @@ a:focus {
     position: absolute;
     top: 0;
     width: 100%;
+    -webkit-animation: fadeOut 15s ease-in-out 5s infinite forwards;
 }
 
 .showcase ul:hover li {
@@ -271,11 +272,14 @@ a:focus {
 .showcase li:first-child {
     z-index: 3;
     position: relative;
-    -webkit-animation: fadeOut 5s ease-in-out 5s infinite alternate;
 }
 
 .showcase li:nth-child(2) {
     z-index: 2;
+}
+
+.showcase li:nth-child(3) {
+    z-index: 1;
 }
 
 #content {

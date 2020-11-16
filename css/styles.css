@@ -267,6 +267,7 @@ a:focus {
 .showcase li:first-child {
     z-index: 3;
     position: relative;
+    -webkit-animation-name: fadeOut;
 }
 
 .showcase li:nth-child(2) {

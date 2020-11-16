@@ -245,10 +245,21 @@ a:focus {
 @-webkit-keyframes fadeOut {
     from {
         opacity: 1;
+        z-index: 4;
     }
 
-    to {
+    16.666% { /*2.5s*/
         opacity: 0;
+        z-index: 4;
+    }
+
+    50% { /*7.5s*/
+        opacity: 0;
+        z-index: -1;
+    }
+
+    51% {
+        opacity: 1;
     }
 }
 

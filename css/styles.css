@@ -264,6 +264,10 @@ a:focus {
     width: 100%;
 }
 
+.showcase ul:hover li {
+    -webkit-animation-play-state: paused;
+}
+
 .showcase li:first-child {
     z-index: 3;
     position: relative;

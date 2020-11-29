@@ -53,6 +53,10 @@ h1, h2, h3, h4 {
    box-shadow: 0 3px 8px 0 #ccc;
    padding: 2.5em;
    -webkit-perspective: 1000px;
+   -moz-perspective: 1000px;
+   -ms-perspective: 1000px;
+   -o-perspective: 1000px;
+   perspective: 1000px;
 }
 
 .button {

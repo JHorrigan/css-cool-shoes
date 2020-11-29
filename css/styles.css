@@ -241,6 +241,11 @@ a:focus {
     margin-top: -26px;
     z-index: 9;
     letter-spacing: 2px;
+    background: -webkit-linear-gradient(top, #FB3876 0%, #d4326d 100%);
+    background: -moz-linear-gradient(top, #FB3876 0%, #d4326d 100%);
+    background: -o-linear-gradient(top, #FB3876 0%, #d4326d 100%);
+    background: -ms-linear-gradient(top, #FB3876 0%, #d4326d 100%);
+    background: linear-gradient(top, #FB3876 0%, #d4326d 100%);
 }
 
 .showcase .button:hover {
